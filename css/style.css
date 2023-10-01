@@ -1,0 +1,84 @@
+/* Geral */
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Helvetica, Arial, sans-serif;
+   box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+   color: #333;
+}
+
+p {
+   color: #70747a;
+}
+/* navbar */
+.navbar-container {
+   width: 100%;
+   height: 80px;
+   padding: 0 2rem;
+   background-color: #232a31;
+}
+.nav {
+   position: relative;
+}
+.logo {
+   width: 50px;
+   margin-top: 15px;
+}
+.navbar-itens {
+   position: absolute;
+   right: 2rem;
+   height: 80px;
+   line-height: 80px;
+   margin: 0;
+   display: inline-block;
+}
+.navbar-itens li {
+   display: inline-block;
+   margin-left: 25px;
+   text-transform: uppercase;
+}
+.navbar-itens a {
+   text-decoration: none;
+   color: #fff;
+   transition: 0.2s;
+}
+.navbar-itens a:hover {
+   color: #ccc;
+   border-bottom: 2px solid #ccc;
+}
+.default-btn {
+   padding: 15px 20px;
+   background-color: #2cc76a;
+   border-radius: 5px;
+}
+.navbar-itens .default-btn:hover {
+   background-color: #22bb5f;
+   color: #fff;
+   font-weight: bold;
+}
+
+/* main banner */
+
+.main-banner {
+   background-image: url("../img/mainbanner.png");
+   background-size: cover;
+   background-position: center;
+   padding: 10rem 0;
+}
+.main-banner h1,
+.main-banner p {
+   color: #fff;
+   text-align: center;
+   font-weight: bold;
+   text-shadow: #000 3px 2px 3px;
+}
+.main-banner h1 {
+   font-size: 54px;
+}
+.main-banner p {
+   font-size: 32px;
+}
